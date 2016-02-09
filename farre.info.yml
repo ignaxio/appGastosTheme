@@ -1,0 +1,49 @@
+core: 8.x
+type: theme
+base theme: false
+
+name: 'Bootstrap Sub-Theme (CDN)'
+description: 'Uses the jsDelivr CDN for all CSS and JavaScript. No source files or compiling is necessary and is recommended for simple sites or beginners.'
+package: 'Bootstrap'
+
+regions:
+  top_menu: 'Top menu'
+  menu_lateral: 'Menu lateral'
+  titulo: 'Titulo'
+  contenido: 'Contenido'
+  pie: 'Pie'
+
+libraries:
+  - 'farre/global-styling'
+  
+core/modernizr: false
+
+stylesheets-remove:
+  - core/modules/ckeditor/css/ckeditor.css
+  - core/modules/system/css/system.admin.css
+  - core/modules/ckeditor/css/plugins/drupalimagecaption/ckeditor.drupalimagecaption.css
+  - core/modules/filter/css/filter.caption.css
+  - core/modules/filter/css/filter.admin.css
+  - core/misc/vertical-tabs.css
+  - core/modules/system/css/components/tree-child.module.css
+  - core/modules/system/css/components/tablesort.module.css
+  - core/modules/system/css/components/tabledrag.module.css
+  - core/modules/system/css/components/sticky-header.module.css  
+  - core/modules/node/css/node.module.css
+  - core/modules/system/css/components/ajax-progress.module.css
+  - core/modules/system/css/components/align.module.css
+  - core/modules/system/css/components/autocomplete-loading.module.css
+  - core/modules/system/css/components/fieldgroup.module.css
+  - core/modules/system/css/components/container-inline.module.css
+  - core/modules/system/css/components/clearfix.module.css
+  - core/modules/system/css/components/details.module.css
+  - core/modules/system/css/components/hidden.module.css
+  - core/modules/system/css/components/item-list.module.css
+  - core/modules/system/css/components/js.module.css
+  - core/modules/system/css/components/nowrap.module.css
+  - core/modules/system/css/components/position-container.module.css
+  - core/modules/system/css/components/progress.module.css
+  - core/modules/system/css/components/reset-appearance.module.css
+  - core/modules/system/css/components/resize.module.css
+  
+  

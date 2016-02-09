@@ -1,0 +1,53 @@
+global-styling:
+    css:
+        theme:
+            css/jquery-ui-1.10.4.custom.min.css: {}
+            css/font-awesome.min.css: {}
+            css/bootstrap.min.css: {}
+            css/animate.css: {}
+            css/all.css: {}
+            css/main.css: {}
+            css/style-responsive.css: {}
+            css/zabuto_calendar.min.css: {}
+            css/pace.css: {}
+            css/jquery.news-ticker.css: {}
+            http://fonts.googleapis.com/css?family=Open+Sans:400italic,400,300,700: { type: external }
+            http://fonts.googleapis.com/css?family=Oswald:400,700,300: { type: external }
+      
+
+    js:
+        js/jquery-1.10.2.min.js: {}
+        js/jquery-migrate-1.2.1.min.js: {}
+        js/jquery-ui.js: {}
+        js/bootstrap.min.js: {}
+        js/bootstrap-hover-dropdown.js: {}
+        js/html5shiv.js: {}
+        js/respond.min.js: {}
+        js/jquery.metisMenu.js: {}
+        js/jquery.slimscroll.js: {}
+        js/jquery.cookie.js: {}
+        js/icheck.min.js: {}
+        js/custom.min.js: {}
+        js/jquery.news-ticker.js: {}
+        js/jquery.menu.js: {}
+        js/pace.min.js: {}
+        js/holder.js: {}
+        js/responsive-tabs.js: {}
+        js/jquery.flot.js: {}
+        js/jquery.flot.categories.js: {}
+        js/jquery.flot.pie.js: {}
+        js/jquery.flot.tooltip.js: {}
+        js/jquery.flot.resize.js: {}
+        js/jquery.flot.fillbetween.js: {}
+        js/jquery.flot.stack.js: {}
+        js/jquery.flot.spline.js: {}
+        js/zabuto_calendar.min.js: {}
+        js/index.js: {}
+        js/highcharts.js: {}
+        js/data.js: {}
+        js/drilldown.js: {}
+        js/exporting.js: {}
+        js/highcharts-more.js: {}
+        js/charts-highchart-pie.js: {}
+        js/charts-highchart-more.js: {}
+        js/main.js: {}

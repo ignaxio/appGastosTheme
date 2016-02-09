@@ -1,0 +1,19 @@
+{# empty Twig template #}
+
+
+{#{ kint(items) }#}
+<div class="sidebar-collapse menu-scroll">
+    <ul id="side-menu" class="nav">
+        {% for item in items %}  
+        <div class="clearfix"></div>
+        <li {% if item['in_active_trail'] %}class="active"{% endif %}>
+            <a href="{{ item.url}}">
+                <i class="fa fa-tachometer fa-fw">
+                    <div class="icon-bg bg-orange"></div>
+                </i>
+                <span class="menu-title">{{ item.title }}</span>
+            </a>
+        </li>
+        {% endfor %}
+    </ul>
+</div>

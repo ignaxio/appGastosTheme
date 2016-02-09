@@ -1,0 +1,19 @@
+
+
+{#{ kint() }#}
+<ol class="breadcrumb page-breadcrumb">
+    {% set counter = 1 %} 
+    {% for item in breadcrumb %}  
+        <li>
+            {% if item.url %}
+                {% if counter == 1 %}<i class="fa fa-home"></i>&nbsp;{% endif %}
+                <a href="{{ item.url }}">{{ item.text }}</a>
+                &nbsp;&nbsp;<i class="fa fa-angle-right"></i>&nbsp;&nbsp;
+            {% else %}
+            <li class="active">{{ item.text }}</li>
+            {% endif %}
+        
+        </li>                  
+        {% set counter = counter + 1 %}
+    {% endfor %}    
+</ol>
